@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+dist/
+*.tar
+*.tar.gz
+*.partial
+*.log
+*.pem
+*.key
+nethelp.conf
+private/
+reports/
+receipts/
+.env

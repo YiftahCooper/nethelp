@@ -1,0 +1,5 @@
+#!/bin/sh
+NH_ROOT=$(CDPATH= cd -- "$(dirname -- "$0")/.." && pwd) || exit 3
+. "$NH_ROOT/lib/common.sh" || exit 3
+NH_VERSION=3.0.0-rc1
+nh_main "$@"

@@ -1,0 +1,25 @@
+# Optional private overrides. Copy locally to /etc/nethelp.conf; never commit it.
+# No quotes or spaces around =. Lines beginning with # are comments.
+# Unset keys retain defaults/discovery. Use --config FILE for a custom location.
+# wan=wan
+# interface=eth2
+# physical=eth2
+# family=4
+# target=1.1.1.1
+# resolver=127.0.0.1
+# dns-port=53
+# secondary=127.0.0.1
+# secondary-port=54
+# domain=example.com
+# type=A
+# count=3
+# timeout=10
+# interval=5
+# seconds=30
+# protocol=icmp
+# port=443
+# url=https://example.com/
+# tls-endpoint=1.1.1.1:853
+# tls-name=cloudflare-dns.com
+# connect-ip=192.0.2.10
+# client=192.0.2.25
